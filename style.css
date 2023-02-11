@@ -1,0 +1,81 @@
+
+body {
+        background: #ffffff;
+        font-family: "Roboto", sans-serif;
+    }
+
+
+
+
+.navbutton{
+        color: black;
+    }
+
+.divmenu{
+    /* margin: .1rem 0 0 8rem; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar{
+    background-color: #fff;
+    justify-content: space-between;
+}
+.logo {
+    width: 23.375rem;
+    margin-left: 3.5rem;
+}
+
+.ulmenu {
+    align-items: center;
+    justify-content: center;
+}
+.nav-item {
+    margin: 0 1rem;
+}
+
+.menuitems{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #6C6379;
+    }
+.login {
+    color: #fff;
+    font-size: bold;
+    border-radius: 0;
+    border: 3px solid black;
+    transition: 0.5s all;
+}
+
+.login:hover{
+    background-color: #fff;
+    color: black;
+    scale: 1.05;
+}
+
+.navbar-toggler{
+    border-radius: 0;
+    margin-right: 0.5rem;
+}
+
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+      width: 10.34rem;
+      margin-left: 2rem;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .navbar-brand img {
+      width: 17rem;
+      margin-left: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-brand img {
+      width: 25rem;
+    }
+  }
+  
