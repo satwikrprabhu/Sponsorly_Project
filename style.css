@@ -1,7 +1,7 @@
 
 body {
-        background: #ffffff;
         font-family: "Roboto", sans-serif;
+        background-color: #f9f8fa;
     }
 
 
@@ -57,6 +57,46 @@ body {
     border-radius: 0;
     margin-right: 0.5rem;
 }
+
+.intro{
+    color: black;
+    margin-top: 12rem;
+}
+
+h2{
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    margin-top: 2rem;
+    font-size: 3.2941176470588rem;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 700;
+}
+.introdivpara{
+    color: #584D66;
+    font-family: 'Karla',sans-serif;
+    font-size: 1.05rem;
+}
+
+.ulsocialmedia{
+    padding-left: 0;
+}
+
+.lisocialmedia{
+    list-style: none;
+    display: inline-block;
+    margin-right: 4rem;
+    color: #584D66;
+    font-family: 'Karla',sans-serif;
+    font-weight: bold;
+}
+.login2{
+    border-radius: 0;
+    font-size: bold;
+}
+
 
 
 @media (max-width: 576px) {
