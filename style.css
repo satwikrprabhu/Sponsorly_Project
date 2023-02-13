@@ -200,9 +200,48 @@ font-family: 'Karla',sans-serif;
     opacity: 1;
     transform: translateX(0);
   }
-  
-  
 
+footer{
+background-color: #fff;
+}
+  
+.footerhead{
+    font-family: 'Rubik',sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.footertitle{
+    font-family: 'Rubik',sans-serif;
+    font-size: 1.5rem;
+}
+
+.footeritem{
+color: #584D66;
+font-family: 'Karla',sans-serif;
+}
+
+.footericons{
+    padding: .7rem;
+}
+
+.footerend{
+    color: #584D66;
+font-family: 'Karla',sans-serif;
+}
+
+
+.carinfohead{
+    font-family: 'Rubik',sans-serif;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.carinfopara{
+    color: #584D66;
+font-family: 'Karla',sans-serif;
+margin-bottom: 4rem;
+}
 @media (max-width: 576px) {
     .navbar-brand img {
       width: 10.34rem;
