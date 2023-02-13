@@ -61,6 +61,7 @@ body {
 .intro{
     color: black;
     margin-top: 7rem;
+    background-color: #f9f8fa;
 }
 
 .divrow{
@@ -124,8 +125,8 @@ body {
 
 
 .secintro{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .img1{
@@ -150,11 +151,16 @@ body {
     padding: .7rem 2.8rem;
 }
 
-.thirdintrohead{
-    font-size: 2.3529411764706rem;
-font-family: 'Rubik',sans-serif;
-margin-bottom: 2rem;
+.con{
+margin-bottom: 7rem;
 }
+
+.thirdintrohead{
+    font-size: 2.5529411764706rem;
+font-family: 'Rubik',sans-serif;
+margin-bottom: 2.6rem;
+}
+
 .circele{
  text-align: center;
  margin-bottom: 2rem;
@@ -176,6 +182,7 @@ h4{
     text-align: center;
     margin-bottom: 1.5rem;
     font-weight: bold;
+    font-size: 1.9rem;
 }
 
 .thirdpara{
@@ -183,6 +190,7 @@ h4{
     margin-bottom: 3rem;
     color: #584D66;
 font-family: 'Karla',sans-serif;
+font-size: 1.1rem;
 }
 
 .thirddiv{
@@ -202,7 +210,7 @@ font-family: 'Karla',sans-serif;
   }
 
 footer{
-background-color: #fff;
+background-color: #000000f2;
 }
   
 .footerhead{
@@ -217,7 +225,7 @@ background-color: #fff;
 }
 
 .footeritem{
-color: #584D66;
+color: #e4e4e4;
 font-family: 'Karla',sans-serif;
 }
 
@@ -226,21 +234,26 @@ font-family: 'Karla',sans-serif;
 }
 
 .footerend{
-    color: #584D66;
+    color: #e4e4e4;
 font-family: 'Karla',sans-serif;
+}
+
+.carintro{
+    margin-bottom: 4rem;
 }
 
 
 .carinfohead{
     font-family: 'Rubik',sans-serif;
     font-size: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .carinfopara{
     color: #584D66;
 font-family: 'Karla',sans-serif;
 margin-bottom: 4rem;
+font-size: 1.1rem;
 }
 @media (max-width: 576px) {
     .navbar-brand img {
@@ -264,7 +277,7 @@ margin-bottom: 4rem;
 
 @media (min-width: 576px) {
     .intro{
-        margin-top: 8rem;
+        margin-top: 6rem;
     }
     .h1tag{
         font-size: 3.2941176470588rem;
@@ -282,7 +295,7 @@ margin-bottom: 4rem;
 
 @media (min-width: 768px) {
     .intro{
-        margin-top: 12rem;
+        margin-top: 6rem;
     }
 
     .divrow{
